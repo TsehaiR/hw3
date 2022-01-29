@@ -12,12 +12,12 @@
     <p>QGIS allows the user to change the projection of a map by clicking the CRS button in the bottem right hand corner. From there, the user is able to search for different projections by typing the EPSG number into the "filter" search bar. After selecting the desired projection and clicking "OK" the map will appear in the proper projection on the main page. </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>The center portion of the map is the most accurate portion of the map while toward the poles there is a large amount of horizontal stretching. </h3>
+    <h3>The center portion of the map is the most accurate portion of the map while toward the poles there is a large amount of horizontal stretching. This map seems to prioritize size over shape as the landmass presented is generally accurately sized, but continents to the far north and south such as Greenland and Antarctica are far wider than would be accurate. </h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>The map dipicts continents well, but the edge of the map has some shape distortion as continents such as Austrailia suffer from some amount of vertical stretching.</h3>
+    <h3>The map depicts the size of continents well, but the edges of the map have some shape distortion as continents such as Australia suffer from some amount of vertical stretching. The map is curved slightly in order to mimic the Earth’s shape and conserve the general area of the landmasses presented. </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
@@ -27,12 +27,13 @@
     <img src=".//maps/3857.png" alt="WGS84" width='500px'>
     </a>
     <h2>Sphere Winkle 1 Projection</h2>
-    <h3>This map seems to stike a balance between size and shape distortion. There does seem to be some priorization of size however, as a large portion of the area seems to have some vertical stretching.</h3>
+    <h3>This map seems to strike a balance between size and shape distortion. There does seem to be some prioritization of size however, as a large portion of the area seems to have some vertical stretching even in the center where similar maps have limited shape distortion. Like the Aitoff projection this projection is also slightly curved. </h3>
     <a href=".//maps/53018.png">
     <img src=".//maps/53018.png" alt="Sphere Winkle" width='500px'>
     </a>
     <h2>World Cylindrical Equal Area Projection</h2>
-    <h3>The map's accuracy seems to be highest toward the center of the map. The size and shape distortion seems to increase as you move in either direction.Vertical stretching and sze distortion seems heighes near the coners of the map.</h3>
+    <h3>This map seems to depict the area at the North Pole most accurately and distortion increases moving away from this area. The area to the edges of the map are stretched horizontally and vertically, and there is a lot of shape and size distortion with many continents. Unlike other maps, this map is circular and seems to view the Earth from above the North Pole.
+    </h3>
     <a href=".//maps/54034.png">
     <img src=".//maps/54034.png" alt="Cylindrical equal area" width='500px'>
     </a>
@@ -42,17 +43,18 @@
     <img src=".//maps/54027.png" alt="World equidistant conic" width='500px'>
     </a>
     <h2>North Pole Azimuthal Equidistant Projection</h2>
-    <h3>This is another map that display the north pole accurately at the expense of distorting continents like alaska which are far wider than accurate.</h3>
+    <h3>This is another map similar to the World Equidistant Conic Projection that displays the North Pole accurately at the expense of distorting continents like Antarctica which are far wider than accurate. Like the Conic Projection, this map also displays the Earth in a circular manner. 
+    </h3>
     <a href=".//maps/102016.png">
     <img src=".//maps/102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
     </a>
     <h2>Sphere Azimuthal Equidistant Projection</h2>
-    <h3>This map is able to present a large amount of the continents accuratly in both shape and size. However there is a large amount of size distortion and vertical stretching toward the edges of the map. </h3>
+    <h3>This map is able to present a large amount of the continents accurately in both shape and size. However there is a large amount of size distortion and vertical stretching toward the edges of the map. </h3>
     <a href=".//maps/53032.png">
     <img src=".//maps/53032.png" alt="Sphere azimuthal equidistant" width='500px'>
     </a>
     <h2>Sphere van der Grinten l Projection</h2>
-    <h3>Size distortion seems highest approaching the poles, while shape disortion seems greatest to the far east and west. </h3>
+    <h3>Size distortion seems highest approaching the poles, while shape distortion seems greatest to the far east and west. </h3>
     <a href=".//maps/53029.png">
     <img src=".//maps/53029.png" alt="Sphere van der grinten l" width='500px'>
     </a>
